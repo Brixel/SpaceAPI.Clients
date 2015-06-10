@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="SpaceAPIClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpaceAPIClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:bm="using:Bing.Maps"
+    mc:Ignorable="d">
+
+    <Grid Background="DarkGray">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel x:Name="OpenPanel">
+                    <ToggleButton x:ConnectionId='1' HorizontalAlignment="Center" Height="400" Width="800"                          ></ToggleButton>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
+                    <TextBlock x:Name="SpaceName"></TextBlock>
+                    <TextBlock x:Name="ApiVersion"></TextBlock>
+                    <Image Width="160" Height="52" x:Name="ImageSource"></Image>
+                </StackPanel>
+            </Grid>
+            
+            <bm:Map Grid.Row="1" Credentials="AjTMWTVBWQQQmBrpm7lYxa1cHlUu2uDA63WYJ3uX5dZyL3_ZQxsJOLf8_abuxVP3" x:Name="myMap"></bm:Map>
+        </Grid>
+        
+    </Grid>
+</Page>
+
+    
+

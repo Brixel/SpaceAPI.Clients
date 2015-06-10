@@ -1,0 +1,1 @@
+C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\SpaceAPIClient.WindowsPhone.csproj;x86

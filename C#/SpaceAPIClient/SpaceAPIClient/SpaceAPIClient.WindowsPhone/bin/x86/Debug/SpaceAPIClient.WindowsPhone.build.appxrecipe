@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>UGENTEC-DEV1</Machine>
+    <WindowsUser>Berend</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>1e76565b-b789-4b56-b147-4d4cb7c851dd</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\bin\x86\Debug\SpaceAPIClient.WindowsPhone.exe">
+      <PackagePath>SpaceAPIClient.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\bin\x86\Debug\SpaceAPIClient.WindowsPhone.xr.xml">
+      <PackagePath>SpaceAPIClient.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Berend\Documents\hackerspace\spaceapi\Clients\C#\SpaceAPIClient\SpaceAPIClient\SpaceAPIClient.WindowsPhone\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

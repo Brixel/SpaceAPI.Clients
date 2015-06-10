@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\berend\documents\hackerspace\spaceapi\clients\c#\spaceapiclient\spaceapiclient\spaceapiclient.windows\obj\x86\debug\intermediatexaml\spaceapiclient.windows.exe" HashGuid="8a86254c-a3ec-91c8-763c-4b925ae5dffb" />
+    <ReferenceAssembly PathName="c:\users\berend\appdata\local\microsoft sdks\windows\v8.1\extensionsdks\bing.maps.xaml\1.313.0825.0\references\commonconfiguration\neutral\bing.maps.winmd" HashGuid="dcdce9e5-521a-6d20-3956-9df814dff813" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\berend\documents\hackerspace\spaceapi\clients\c#\spaceapiclient\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
+    <ReferenceAssembly PathName="c:\users\berend\documents\hackerspace\spaceapi\clients\c#\spaceapiclient\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\berend\documents\hackerspace\spaceapi\clients\c#\spaceapiclient\packages\microsoft.aspnet.webapi.client.5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\system.net.http.formatting.dll" HashGuid="2be584ba-1a95-71f0-a34d-ef121720ead4" />
+    <ReferenceAssembly PathName="c:\users\berend\documents\hackerspace\spaceapi\clients\c#\spaceapiclient\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
