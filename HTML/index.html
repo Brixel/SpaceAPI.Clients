@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>current status</title>
+
+</head>
+<body>
+	<div id="currentStatus" style="width:100%;height:100%"></div>
+</body>
+	<script type="text/javascript">
+	function Get(yourUrl){
+		var Httpreq = new XMLHttpRequest(); // a new request
+		Httpreq.open("GET",yourUrl,false);
+		Httpreq.send(null);
+		return Httpreq.responseText;          
+	}
+
+
+	var response = Get("http://space.visionsandviews.net/spaceapi/spaceapi.json");
+	var jsonData = JSON.parse(response);
+	var openStatus = jsonData.state.open;
+	var statusDiv = document.getElementById("currentStatus"); 
+	if(openStatus == true){
+		statusDiv.style.backgroundColor = 'green';
+	}else{
+		statusDiv.style.backgroundColor = "red";
+	}
+	
+	</script>
+</html>
